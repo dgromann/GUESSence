@@ -1,0 +1,23 @@
+EXAMPLE 
+
+This file presents a brief example of what the data in the GUESSence web and mobile app looks like. In this two-player game a describer describes cities in the world to a guesser, who submits guesses that consist of city names. 
+
+One example interaction of such messages is demonstrated by the DB extraction of the following game. The first row represents the column headers and the rest of the lines are the values.  
+"id";"handle";"message";"timestamp";"game_id";"game_role"
+5768;77;"oldest empire";"2017-06-01 09:27:52.932294";2176;"describer"
+5769;82;"athens";"2017-06-01 09:28:01.348044";2176;"guesser"
+5770;77;"refugees";"2017-06-01 09:29:15.045847";2176;"describer"
+5771;82;"damascus";"2017-06-01 09:29:28.144708";2176;"guesser"
+5772;77;"cedar";"2017-06-01 09:30:17.519832";2176;"describer"
+5773;82;"beirut";"2017-06-01 09:30:24.212772";2176;"guesser"
+5774;0;"Congratulations! The city was guessed correctly! Please click \"New Game\"!";"2017-06-01 09:30:24.220340";2176;"GAME"
+5775;0;"The other player has left the game. Please click \"New GAME\"!";"2017-06-01 09:30:28.261294";2176;"GAME"
+
+The city being described is "Beirut", which the guesser finds out correctly. THe system has the role "GAME" and informs the two users that the game has been successful. The city data include Taboo words that were generated using a crowdsourcing approach were people were asked to provide the first max. ten words they associate with a given city. The following line shows the data associated with the city "Beirut".
+"id";"city_id";"city_name";"country";"latitude";"longitude";"tabooWords";"number_played"
+31;31;"Beirut";"Lebanon";33.88862900;35.49547900;"capital; wars; ancient; historical; multicultural; prehistoric; damaged";3
+
+The association of the city id and the game id is stored in a separate table: 
+"id";"game_id";"describer_id";"guesser_id";"start_time";"end_time";"last_guess_time";"success";"city_id"
+2176;55162;77;82;"2017-06-01 09:27:07.613169";"2017-06-01 09:30:29.291191";"2017-06-01 09:30:24.215432";1;31
+
