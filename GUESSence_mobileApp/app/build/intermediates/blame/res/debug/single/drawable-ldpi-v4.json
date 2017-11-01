@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_googleg_color_24dp.png",
+        "source": "/Users/dgromann/.android/build-cache/b71c31581e7834079b4535cb9a44f561a7cbfc27/output/res/drawable-ldpi-v4/ic_googleg_color_24dp.png"
+    },
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_mail_white_24dp.png",
+        "source": "/Users/dgromann/.android/build-cache/b71c31581e7834079b4535cb9a44f561a7cbfc27/output/res/drawable-ldpi-v4/ic_mail_white_24dp.png"
+    },
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_facebook_white_22dp.png",
+        "source": "/Users/dgromann/.android/build-cache/b71c31581e7834079b4535cb9a44f561a7cbfc27/output/res/drawable-ldpi-v4/ic_facebook_white_22dp.png"
+    },
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/common_ic_googleplayservices.png",
+        "source": "/Users/dgromann/.android/build-cache/4f0564fb555e1151f02844dc669bf6fa31637202/output/res/drawable-ldpi-v4/common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_twitter_bird_white_24dp.png",
+        "source": "/Users/dgromann/.android/build-cache/b71c31581e7834079b4535cb9a44f561a7cbfc27/output/res/drawable-ldpi-v4/ic_twitter_bird_white_24dp.png"
+    }
+]

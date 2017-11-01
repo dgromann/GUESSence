@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/dgromann/.android/build-cache/1627f00aaf226711df351cf4f0835b41400898ee/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/res/merged/release/drawable-v21/avd_hide_password.xml",
+        "source": "/Users/dgromann/.android/build-cache/ed2e50809557f64dfeb87abf38d4d426b45c7e38/output/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/dgromann/.android/build-cache/1627f00aaf226711df351cf4f0835b41400898ee/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/dgromann/.android/build-cache/1627f00aaf226711df351cf4f0835b41400898ee/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/res/merged/release/drawable-v21/tw__like_action.xml",
+        "source": "/Users/dgromann/.android/build-cache/c9f4ef76a39c14831e4a6edcdd22b7416bd73ed3/output/res/drawable-v21/tw__like_action.xml"
+    },
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/dgromann/.android/build-cache/7a22e6ae2a7c2ae5172fe6e77474ef4038db1858/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/res/merged/release/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/Users/dgromann/.android/build-cache/ed2e50809557f64dfeb87abf38d4d426b45c7e38/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/res/merged/release/drawable-v21/design_password_eye.xml",
+        "source": "/Users/dgromann/.android/build-cache/ed2e50809557f64dfeb87abf38d4d426b45c7e38/output/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/res/merged/release/drawable-v21/avd_show_password.xml",
+        "source": "/Users/dgromann/.android/build-cache/ed2e50809557f64dfeb87abf38d4d426b45c7e38/output/res/drawable-v21/avd_show_password.xml"
+    }
+]

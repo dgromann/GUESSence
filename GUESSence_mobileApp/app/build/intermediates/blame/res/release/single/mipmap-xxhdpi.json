@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/res/merged/release/mipmap-xxhdpi/guessence.png",
+        "source": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/src/main/res/mipmap-xxhdpi/guessence.png"
+    },
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/res/merged/release/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]

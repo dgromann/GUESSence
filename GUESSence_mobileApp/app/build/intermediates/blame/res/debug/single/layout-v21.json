@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/dgromann/.android/build-cache/7a22e6ae2a7c2ae5172fe6e77474ef4038db1858/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/dgromann/.android/build-cache/7a22e6ae2a7c2ae5172fe6e77474ef4038db1858/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/dgromann/.android/build-cache/7a22e6ae2a7c2ae5172fe6e77474ef4038db1858/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/dgromann/.android/build-cache/7a22e6ae2a7c2ae5172fe6e77474ef4038db1858/output/res/layout-v21/notification_action.xml"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/res/merged/debug/mipmap-mdpi/guessence.png",
+        "source": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/src/main/res/mipmap-mdpi/guessence.png"
+    },
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/GUESSence/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/dgromann/TabooGame/mobileApp/GUESSence/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/dgromann/TabooGame/mobileApp/GUESSence/app/build/intermediates/res/merged/debug/mipmap-mdpi/guessence.png",
+        "source": "/Users/dgromann/TabooGame/mobileApp/GUESSence/app/src/main/res/mipmap-mdpi/guessence.png"
+    }
+]

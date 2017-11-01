@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/73e561b7ddb6ca6fa6deb016cd8ed249c5e75447/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="42a3ae86dd3ae2876d3e95c2e6e104ae57a50a65">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_f3d0edc344baa3fbfa69d4149794a211aaa6fbf9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/ce775e7a28fdfbc20024889f90199d5363556e89/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_d70dbeed7eaacec791c170778ee20037bc6883de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/0aa03d74594cd0eb9a5782c0f6feb325441eecb4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="69e74a8b1cbf5b8ee0fc0cca6bab1ac6c45efef8">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/debug/classes_4a142d2d233ab9ea917cbc31c0c9b860c1d8ddc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/58f088c23653f5b53fd2215fe01bf637f0b8789b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_4ed9835faa63d86e09c021402e0b00a69b36e150.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/dcfa9a4084d4eca0ffecbed257da358132c815f1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_7f013832da85b6a19b6b1b16a184082f12656309.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/44d567bfae1635f31bc02d44c0f8a6b7df2ae04f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6b57821de6e2cbd036be860fea35812a413a3a9d">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_804ba641dfa21d6ca16790e4533dc77b5991f90e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/732686936f4a02d6890abcc2cb3ca66be9ea7064/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3f0a85e6000998ac322ddd50750e8cf91601a84b">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/debug/classes_9f068c1500f529b3d9d7cbba62cf059de48e46b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/support-annotations-25.3.1_e9db90bab620c2d89d66c5c043f567b4b0ee5415.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/9c85c75b6b5971e56486853fd71960b81a76cddf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d79c575e1d97b0298746a4c032a0c1dc201c2f82">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/debug/classes_97cd35d9c09d624f0bd12293cd53d6824d894c84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/1f1062e7e39a32b768982a9543a9dc3ffb5ea178/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_bb865c2da148e4a0a9c43bc8a58f117b97c16d3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/209d0e1b07413871ddb6804778e465d65a9148b5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_c6ba2a0120dc10d4e5526ef67d82f6a9e2d64e35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/0fca4d84235c085fcd0b396622925ac7d6badbec/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_3eef1a8dd82d69464eb8ae3879684d7dd0589aad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/c9f4ef76a39c14831e4a6edcdd22b7416bd73ed3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b0424f06fdb2897efee7b4cf999c60e0b1bbfe50">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_8ac2c23354fee09c47da0d40a659dcc674b7bf29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/e37f6fc58516eab870b43c20351bacdf0b4e3b4e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_81ceced1078467edd9a72f883f30dc7dd102a907.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/4f24cad1cb703f4c3dcbd4f4184e3d509425e0e0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="900a290779cdb4eb2e63b6f7806fd9f30ce4f60d">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/debug/classes_25599914554fd06e5c2364daf9f5edefb39186a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/997e1d1c7ad10a01a2539fbd44649d7a1afd7a3c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_66942f4b81e841dcddab582b9c9ebb9db498ec0c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/194a956ad882b4bb105f7a28b085fc4ba922590f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ff5114aff3bfb387577ba92a11408dcf0441c24">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/debug/classes_e71865b1e4a375aa523f2f3cc5c40618c220b7d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/680dc7317ac92e51410d9661f3921ece740580b3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_7f2f8cae425487da27d1f1b133eed336ed0e4078.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/7f760713bcd734758b4615115707dd8868ae5366/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="23e3acde10f4cf52778f8dc88107fb96459f2392">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_dd9dbaeb6057550b8d7cc83b9af05fd8649e7516.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/1bc5ab1475c5b69d55382779a3977c397b619c47/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f83a631abfdb790591a720e0cfb5f41329831c3">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/debug/classes_b1340ee6434ed3548d378e48111d47741d944dd9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/971e18e17335b3cf55a596738194d0fb8020705b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="79f10814ccc3cf45cd5c1d566a3f6b5bcf7c1562">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_e8f3cb1225e60a080b8e70e78775396de98864d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/006a380a9c6656d2ee19164866fec845511b4b7b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="933ee15f1696c3583a97e6f6d6662a97f0d2019d">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_a0510682eaad7768ad04f13eb1b3a037fa256e46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/8cc303341fce9d0b3938706a3d94ec113b9b4847/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_ac4b4965a19f8ba0b4eeffd7381cad1378f55725.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/00f75e9b30d63b6e0b006094c9565f4d69f7b532/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a534044236cf81b002604643d23e7ca56bd1ee0">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/debug/classes_47d216ac8edbc78b5c5634bb3b11be43375006dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/79de93c4247b09d9dc024c167388ae3667f81d80/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_818112992e947d092be737c0718dc7c5f26c8af1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/1627f00aaf226711df351cf4f0835b41400898ee/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_1b9d5fcb9e7e9a2c8db8d0211189279e07bcb317.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/dbc04388c09d6b6a42259a1c714f9d6062d37425/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_8c41844127dfd844f2d26bd00c620aa5c31d3899.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/a4f7bf5ec26d50e4e7c69b6bfc2ed8e50ad22723/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_06a208c698ffaa12767c6094748f024767ddb167.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/efd0a3cc33306fd035fa875f336910224fc1d312/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_0e25c282c976113b03285b9b2512cadd8bc26464.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/9f06c76299fd68ca70ab8e155714ae35f8b5d16d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_d898bb2bcbe54177263107f7f180f5682e0cbdb4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/000e89bc6186dd6001c727a126caec6c7bb12c3a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15e59454416c6341bd3ed2533b585cd340682dd1">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_99a8e52fb0e64d87c12de0dc2d043fd418cd83bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/7d55c58d0976148aa7e09794d649eb5f899d826b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_4853a9917e1b4b5f9d3dd496b077507fdfead651.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/62844614f27e1a0a15e89f97eb4dc763bed15744/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="41f89f608187d3d0c83ce69142ae0d223d40c06d">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_0b4ee8f5c1981f6fc03c05dc921a1098036511c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/d284d840251dfa00110d9fd32d1acb376e8c8ee5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_1b0f5e0e80317419c675201a740ff7bdf22eae7c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/24a25f825e524da4399150d8d12e6345e7dda689/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_21e0159c3a89225a94a80c30a71850b5511f0ae6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/a8abeb2081b1410fbb7cd8990d3d21abff5f19c7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_ef8fd1830a4189ea090e5233e013b9fba1f70e50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/d675877702107539f3eefe5c7db16502e8ebc3ac/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3f8f779a22cbb4c4d0759467a4f1011bb5252970">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_c0a8e6e613e20676728a83d4c1063bd412b2f5a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/1710ebf7842e862fff49494e29a17ba0b874d6b5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_ff61a0697eddc5856094b635519bfc19f46279a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/284bb533eda65bcac04231f96f44ff8483a58ad6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_b4e2e41dca56b06093a025d12180cefbdcd2083d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/2b81b5a0a4b7301daeec48913294f0646c5d5fe5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_b37a16b20d583349c9c820180256ef87eab89ed4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/a2e4f51e1f280812806ae30bad04a9eb55f48760/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da832806828ba407284c0c4b1d87b8f9ed9f2520">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/debug/classes_f0a8e07b9bf8d2e95c9713c1504e1ec0642c840b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dgromann/.android/build-cache/131d494a2ada9605b7c1ddefc257ce34d40dc0ca/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="/Users/dgromann/TabooGame/mobileApp/ESSENCE/app/build/intermediates/pre-dexed/release/classes_05aa7a3613360dda8b281f027d3c790b070efa47.jar" />
+    </item>
+
+</items>
