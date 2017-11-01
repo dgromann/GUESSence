@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">	
+	<div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<h4>Please log in</h4>
+
+			<h5><a href="/game/">Back to registering</a></h5>
+	</div>
+	<div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			{% if errormessage %}
+				<p style="color:red;"><strong>{{ errormessage }}</strong></p>
+			{% endif %}
+		
+			<form id="login_form" method="post" action="/game/login/">
+			{% csrf_token %}
+				<p><input type ="text" name="username" class="form-control" placeholder="Username" /></p>
+				<p><input type="password" name="password" class="form-control" placeholder="Password" /></p>
+				<p><input  name="deviceID" id="id_deviceID"  value="0" type="hidden"/></p>
+				<input type="submit" class="btn btn-primary" value="Login" />
+			</form>
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script> 
+{% load static %}
+	<script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/login.js' %}"></script>
+{% endblock content %}

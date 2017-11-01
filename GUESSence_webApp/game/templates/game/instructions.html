@@ -1,0 +1,195 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+  <style>
+  body {
+      position: relative; 
+  }
+  #section1 {padding-top:50px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;color: #fff; background-color: #ff9800;}
+  #section41 {padding-top:50px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;color: #fff; background-color: #009688;}
+  </style>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+{% if user.is_authenticated %}
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">GUESSence</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+	        <li><a href="#section1">Welcome</a></li>
+	        <li><a href="#section2">Example Game</a></li>
+	        <li><a href="#section3">Test Question</a></li>
+	        <li><a href="#section4">Start Game</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="section1" class="container-fluid">
+  		<h2>Welcome {{user.username}}!</h2>
+        <p>GUESSence is a two player game where you describe cities in the world ONLY in English please. To turn off the push notifications please logout of the game.</p>
+
+		<p><strong>Describer:</strong> describes a city <strong>ONLY</strong> using adjective/verb + common noun. Please do not use any NAMES including nationalities, languages, cardinal directions, locations, people or organizations.</p>
+			
+		<p><strong>Guesser:</strong> guesses a city <strong>ONLY</strong> using city names or "no clue" as response.</p>
+
+		<p>The describer starts the game and obtains a city name and a set of words (Taboo words) that may not be used in the game. The guesser submits a city names that s/he thinks is being described. For both roles please do not use numbers and punctuation, such as ":)".</p>
+
+		<p>If you run out of hints/guesses, you can start a new game by hitting "New Game"</p>
+</div>
+<div id="section2" class="container-fluid">
+  <h2>Example Game: Lisbon, Portugal</h2>
+        
+        <p><strong>Taboo words:</strong> <kbd>fishing</kbd> <kbd>sardine</kbd> <kbd>earthquake</kbd> <kbd>football</kbd> <kbd>history</kbd> <kbd>oil</kbd> <kbd>museum</kbd> <kbd>olives</kbd> <kbd>port</kbd></p>
+
+<pre class="col-xs-12" style="color: #fff; background-color: #673ab7;"> Describer: sun 
+	Guesser: Madrid
+Describer: nasal vowel
+	Guesser: Saint Tropez
+Describer: peninsula
+	Guesser: Barcelona
+Describer: ocean
+	Guesser: Lisbon
+</pre>	
+			<p><strong>Time:</strong> 2 minutes to submit hint/guess</p>
+			<p><strong>Timeup: </strong> - 0.5 points on your score</p>
+			<p><strong>Score:</strong> successful games + ( 0.1 x number of unsuccessful games)</p>
+</div>
+<div id="section3" class="container-fluid">
+<h2>Test Questions</h2>
+        <div id="quiz_container">
+			
+			<ul class="quiz_container" style="color: white; padding:0px">
+			<li class="question_container row-fluid question_0">
+				<div class="question span12 show" style="overflow: hidden; position: relative;">
+					<h4 class="title">You are a describer. Can you say "red square" to describe Moscow, Russia?</h4>
+				</div>
+				<ul class="span12 possible_answers possible_answers_0">
+					<li class="possible_answer span12 answer_0 alerts" data-id="myid0">Yes</li>	 				
+					<li class="possible_answer span12 answer_1 alerts" data-id="myid0">It is a common noun, so I don't see why not.</li>
+					<li class="possible_answer span12 answer_2 alerts" data-id="myid0">"Red square" has nothing to do with Moscow.</li>
+					<li class="possible_answer span12 answer_3 correct" data-id="myid0">No, because this is a name.</li>
+				</ul>
+			</li>
+			<div data-alerts="alerts"  data-ids="myid0" data-fade="3000"></div>
+			<div data-alters="correct" data-ids="myid0" data-fade="3000"></div>
+
+			<li class="question_container row-fluid question_1">
+				<div class="question span12 show" style="overflow: hidden; position: relative;">
+					<h4 class="title">You are a describer. Can you say "tulips" to describe Amsterdam, Netherlands?</h4>
+				</div>
+				<ul class="span12 possible_answers possible_answers_1">
+					<li class="possible_answer span12 answer_0 correct" data-id="myid1">Yes</li>	 				
+					<li class="possible_answer span12 answer_1 correct" data-id="myid1">It is a common noun, so I don't see why not.</li>
+					<li class="possible_answer span12 answer_2 alerts" data-id="myid1">"Tulips" have nothing to do with Amsterdam.</li>
+					<li class="possible_answer span12 answer_3 alerts" data-id="myid1">No, because this is a name.</li>
+				</ul>
+			</li>
+			<div data-alerts="alerts"  data-ids="myid1" data-fade="3000"></div>
+			<div data-alters="correct" data-ids="myid1" data-fade="3000"></div>
+
+
+			<li class="question_container row-fluid question_2">
+				<div class="question span12 show" style="overflow: hidden; position: relative;">
+					<h4 class="title">You are a guesser. You get the hint "boots". Can you say "Wellington" in reply?</h4>
+				</div>
+				<ul class="span12 possible_answers possible_answers_2">
+					<li class="possible_answer span12 answer_0 correct" data-id="myid2">Yes</li>	 				
+					<li class="possible_answer span12 answer_1 correct" data-id="myid2">It is a city name, so I don't see why not.</li>
+					<li class="possible_answer span12 answer_2 alerts" data-id="myid2">No, because this is not a city name.</li>
+				</ul>
+			</li>
+			<div data-alerts="alerts"  data-ids="myid2" data-fade="3000"></div>
+			<div data-alters="correct" data-ids="myid2" data-fade="3000"></div>
+
+			<li class="question_container row-fluid question_3">
+				<div class="question span12 show" style="overflow: hidden; position: relative;">
+					<h4 class="title">You are a describer. Can you say "French" to describe Paris, France?</h4>
+				</div>
+				<ul class="span12 possible_answers possible_answers_3">
+					<li class="possible_answer span12 answer_0 alerts" data-id="myid3">Yes</li>	 				
+					<li class="possible_answer span12 answer_1 alerts" data-id="myid3">It is a common noun, so I don't see why not.</li>
+					<li class="possible_answer span12 answer_2 alerts" data-id="myid3">"French" has nothing to do with Paris.</li>
+					<li class="possible_answer span12 answer_3 correct" data-id="myid3">No, because this is a name.</li>
+				</ul>
+			</li>
+			<div data-alerts="alerts"  data-ids="myid3" data-fade="3000"></div>
+			<div data-alters="correct" data-ids="myid3" data-fade="3000"></div>
+
+			<li class="question_container row-fluid question_4">
+				<div class="question span12 show" style="overflow: hidden; position: relative;">
+					<h4 class="title">You are a describer. Can you say "well done" or "yes" if the guess is correct?</h4>
+				</div>
+				<ul class="span12 possible_answers possible_answers_4">
+					<li class="possible_answer span12 answer_0 alerts" data-id="myid4">Yes</li>	 				
+					<li class="possible_answer span12 answer_1 alerts" data-id="myid4">I don't see why not.</li>
+					<li class="possible_answer span12 answer_2 correct" data-id="myid4">No</li>
+				</ul>
+			</li>
+			<div data-alerts="alerts"  data-ids="myid4" data-fade="3000"></div>
+			<div data-alters="correct" data-ids="myid4" data-fade="3000"></div>
+
+			<li class="question_container row-fluid question_5">
+				<div class="question span12 show" style="overflow: hidden; position: relative;">
+					<h4 class="title">You are a guesser. Can you ask "Europe" if you want to be sure you are thinking the right direction?</h4>
+				</div>
+				<ul class="span12 possible_answers possible_answers_5">
+					<li class="possible_answer span12 answer_0 alerts" data-id="myid5">Yes</li>	 				
+					<li class="possible_answer span12 answer_1 alerts" data-id="myid5">It is a name, so I don't see why not.</li>
+					<li class="possible_answer span12 answer_2 correct" data-id="myid5">No, because this is not a city name.</li>
+				</ul>
+			</li>
+			<div data-alerts="alerts"  data-ids="myid5" data-fade="3000"></div>
+			<div data-alters="correct" data-ids="myid5" data-fade="3000"></div>
+
+			<li class="question_container row-fluid question_6">
+				<div class="question span12 show" style="overflow: hidden; position: relative;">
+					<h4 class="title">You are a guesser. Can you say "no idea" if you don't know?</h4>
+				</div>
+				<ul class="span12 possible_answers possible_answers_6">
+					<li class="possible_answer span12 answer_0 alerts" data-id="myid6">Yes</li>	
+					<li class="possible_answer span12 answer_1 correct" data-id="myid6">No</li>
+				</ul>
+			</li>
+			<div data-alerts="alerts"  data-ids="myid6" data-fade="3000"></div>
+			<div data-alters="correct" data-ids="myid6" data-fade="3000"></div>
+
+		</ul>
+		</div>
+</div>
+<div id="section4" class="container-fluid">
+	<form id="start" action="{% url 'game:start' %}">
+		<input class="btn btn-primary" id="start" type="submit" class="btn btn-primary" value="Start Game"/>
+	</form>
+</div>
+
+</body>
+
+
+{% else %}
+<div class=container>
+	<h4>Please register before you play!</h4>
+	<a href="{% url 'game:index' %}">Register</a>
+</div>
+{% endif %}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+{% load static %}
+	<link type="text/css" rel="stylesheet" href="{% static "css/bootstrap.min.css" %}">
+	<script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/quiz.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/jquery.jsAlerts.js' %}"></script>
+{% endblock content %}

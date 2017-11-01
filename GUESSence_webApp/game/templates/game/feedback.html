@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="container-fluid" style="padding-top: 20px">
+	<div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="panel panel-primary">
+				<div class="panel-heading"><span class="glyphicon glyphicon-star"></span> What do you think about GUESSence?</div>
+				<div class="panel-body">
+						<form id="feedback-form" method="POST" action="{% url 'game:provideFeedback' game.game_id%}">
+						{% csrf_token %}
+						<div class="input-group">
+							<input type="hidden" id="game_id" value="{{game.game_id}}">
+							<input type="text" id="feedback" class="form-control" placeholder="Please leave us some feedback">
+							<div class="input-group-btn">
+				    			<button class="btn btn-primary" type="submit"><i class="glyphicon glyphicon-send"></i></button>
+				    		</div>
+						</div>
+						</form>
+					<a class="btn btn-primary" href="/game/start/logout/{{game.game_id}}/" role="button" style="margin-top: 10px">Logout</a>
+					<p style="margin-top: 15px"><a href="/game/instructions" type="text">Consult Instructions</a></p>
+					{% if error_message %}
+					<p><strong>{{ error_message }}</strong></p>
+					{% endif %}
+				</div>
+			</div>
+	</div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+<script src="https://cdn.firebase.com/libs/firebaseui/2.0.0/firebaseui.js"></script>
+<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.0.0/firebaseui.css" />
+{% load static %}
+	<script type="text/javascript" src="{% static 'js/feedback.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.form.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/star-rating.js' %}"></script> 
+    <script type="text/javascript" src="{% static 'js/logout.js' %}"></script>
+{% endblock content %}

@@ -1,0 +1,227 @@
+id;city_id;"city_name";"country";latitude;longitude;"tabooWords";number_played
+1;1;"Hiroshima";"Japan";34.38520300;132.45529300;"atomic bombs; castles; parks; humid; gardens; rebuilt; coastlines; wars; pancakes; shrines; cherry blossoms; peace; oleanders";3
+2;2;"Paris";"France";48.85661400;2.35222200;"capital; cafes; rivers; museums; cathedrals; art; monuments; towers; palaces; romances; terrorists; baguettes; pastries; fashion";3
+3;3;"Sydney";"Australia";-33.79451450;150.36192700;"bridges; beaches; harbours; operas; barbecues; convicts; surfing; eucalyptus; kangaroos; harbor; snakes; sharks; koalas";3
+4;4;"Hong Kong";"Hong Kong";22.39642800;114.10949700;"industry; trade; banks; luxury cars; food";3
+5;5;"Venice";"Italy";45.44084700;12.31551500;"gondolas; canals; art; water; pizzas; romantic; gondoliers; bridges; renaissance; architecture; blinds; smell";3
+6;6;"Moscow";"Russia";55.75582600;37.61730000;"cathedrals; snow; cultures; communism; tyranny; languages";3
+7;7;"Beijing";"China";39.90421100;116.40739500;"historical; governments; modern; businesses; bicycles; smog; crowds; pandas";3
+8;8;"Amsterdam";"Netherlands";52.37021600;4.89516800;"canals; art; drugs; museums; weed; prostitutes; wind mills; tulips";3
+9;9;"Jerusalem";"Israel";31.76831900;35.21371000;"religions; holy; wars; walls; settlements; heritage; falafels";3
+10;10;"Athens";"Greece";37.98391700;23.72936000;"capitals; history; ancient; goddesses; mythology; ruins; statues; cultures; philosophy; beaches; fetas; retsinas; democracy";3
+11;11;"Tokyo";"Japan";35.68948700;139.69170600;"skyscrapers; busy; parks; sushis; pop cultures; subways; companies; cherry trees";3
+12;12;"Buenos Aires";"Argentina";-34.61546110;-58.57340850;"governments; music; nightlife; food; steaks; bars; port; wines";3
+13;13;"Mumbai (formerly Bombai)";"India";19.07598400;72.87765600;"tropical climate; islands; festivals; bollywood; films; cows; curry; seasports";3
+14;14;"Rio de Janeiro";"Brazil";-22.91035520;-43.72854280;"beaches; carnival; monuments; bananas; parades; crowds; dances; soccer; poverty";3
+15;15;"Rome";"Italy";41.91024160;12.25579770;"capital; art; history; tourism; religion; ancient; pope; sightseeing; colliseum; empire";4
+16;16;"Prague";"Czech Republic";50.07553800;14.43780000;"capital; castles; old town; theatres; museums; communism; gothic; stag parties; music; galleries";3
+17;17;"London";"United Kingdom";51.50735100;-0.12775800;"capital; palaces; towers; bridges; rivers; queen; guards; fish and chips; royalty; tours; clocks";3
+18;18;"Boston";"United States";42.36008200;-71.05888000;"basketball; tea party; marathons; colleges; clam chowder; universities; pilgrims; seafood";3
+19;19;"San Francisco";"United States";37.77492900;-122.41941600;"bridges; water; earthquakes; gold; parks; homosexuals; trams; seafood";3
+20;20;"Istanbul";"Turkey";41.00823800;28.97835900;"football; earthquakes; history; tobacco; kebabs; empire; olives; old work; peninsula; sea";3
+21;21;"New York";"United States";40.71278400;-74.00594100;"skyscraper; music; city; rivers; cabs; entertainment; statues; crowds; apples; money";5
+22;22;"Berlin";"Germany";52.52000700;13.40495400;"capital; walls; beers; politics; refugees; sausages; rebuilt; financial center; sports; cold war; history; watchtowers; graffitis";4
+23;23;"Dubai";"United Arab Emirates";25.20484900;55.27078300;"deserts; skyscrapers; wealth; hijab; rich people; tourism; abaya; old world; oil";3
+24;24;"Honolulu";"United States";19.89676600;-155.58278200;"beaches; palm trees; tropical; island; sand; surfing; hulas; flowers; volcano; skirts";3
+25;25;"Barcelona";"Spain";41.38506400;2.17340300;"flamenco; architecture; art; gardens; football; waterfront; dances; cathedrals; cultures; independent; rich; autonomous";3
+26;26;"Kyoto";"Japan";35.01163600;135.76802900;"temples; nature; islands; palaces; gardens; kimonos; sake; subtropical";3
+27;27;"Bruges";"Belgium";51.20934800;3.22470000;"history; rivers; arts; canals; laces; chocolates; mayonnaise; festivals; bicycles; cheeses; fries; windmills";3
+28;28;"Chicago";"United States";41.87811400;-87.62979800;"hot dogs; lakes; cold; pizzas; lakes; skyscrapers; shopping; museums; baseball; sculptures";4
+29;29;"Cincinnati";"United States";39.13625620;-84.68048650;"chilis; city; football; rivers; pigs; borders; immigration; jazz";3
+30;30;"Vienna";"Austria";48.20817400;16.37381900;"music; composers; art; sausages; pianos; palaces; museums; orchestra; culture; fashion";3
+31;31;"Beirut";"Lebanon";33.88862900;35.49547900;"capital; wars; ancient; historical; multicultural; prehistoric; damaged";3
+32;32;"Bangkok";"Thailand";13.75633100;100.50176500;"capital; temples; food; rivers; third world; prostitution; canoes; smell; transportation hub; street markets; bargaining";3
+33;33;"Florence";"Italy";43.76956000;11.25581400;"arts; fashion; history; wines; opera; museums; cathedrals; architectures; palaces; politics; leathers";3
+34;34;"Budapest";"Hungary";47.49791200;19.04023500;"capital; rivers; architectures; wines; startups; technology; baths; old world; spas";4
+35;35;"Cairo";"Egypt";30.04442000;31.23571200;"pyramids; museums; tombs; deserts; sand; antiquities; rivers; camels; bazars; mumies";3
+36;36;"Marrakesh";"Morocco";31.62947200;-7.98108400;"food; trade; turbans; tourism; cliff walls; colors; markets; mosques; camels";3
+37;37;"Singapore";"Singapore";1.35208300;103.81983600;"islands; busy; orchids; gardens; business center; flora; religions";3
+38;38;"Bucharest";"Romania";44.42764100;26.10200300;"palaces; festivals; neo-classical architectures; cultures; financial centers; churches";3
+39;39;"Wellington";"New Zealand";-41.28646000;174.77623600;"kiwis; cultural centers; city; rural areas";3
+40;40;"Lisbon";"Portugal";38.72225200;-9.13933700;"fishing; sardines; earthquakes; football; history: oils; museums; olives; ports; hills";3
+41;41;"New Delhi";"India";28.61393900;77.20902100;"temples; cows; festivals; spice stalls; beggars; landscaped gardens; crowds; food; observatory; crickets; markets; religious festivals; poverty";3
+42;42;"Las Vegas";"United States";36.16994100;-115.13983000;"casinos; shows; entertainment; magic; marriages; dances; nightlife; money; hotels; deserts; gaming; prostitution";3
+43;43;"Mecca";"Saudi Arabia";21.38908200;39.85791200;"muslims; deserts; worship; wars; pilgrimages; saudis; pilgrims; holy; walls; polygenism";3
+44;44;"Madrid";"Spain";40.41677500;-3.70379000;"capital; arts; bullfightings; architectures; soccer; monuments; baroque; churches; cuisine; nightlife; subways";3
+45;45;"Stockholm";"Sweden";59.32932300;18.06858100;"capital; museums; palaces; islands; amusement parks; mountains; designs; meatballs; pop music";3
+46;46;"Saint Petersburg";"Russia";59.93428000;30.33509900;"ballets; operas; history; coastal; revolutions; literature; cathedrals; museums; former capital; orchestras";3
+47;47;"Dublin";"Ireland";53.34980500;-6.26031000;"capital; castles; rivers; beers; cathedrals; rolling hills; bridges; green; water; bicycles; universities; stouts";3
+48;48;"Shanghai";"China";31.23041600;121.47370100;"skyscrapers; pollution; museums; technology; cinemas; large; parades; waterfronts; colonial; rivers; shipbuilding";3
+49;49;"Copenhagen";"Denmark";55.67609700;12.56833700;"museums; palaces; pastries; cheeses; crowded city; gardens; rivers; cold weather; vikings";3
+50;50;"Portsmouth";"United Kingdom";50.81666700;-1.08333300;"ports; navys; sailing; ships; harbours; football; flagships; boats";3
+51;51;"Funchal";"Portugal";32.66016870;-16.99488320;"ports; cliffs; flowers; islands; coasts; mountainous; wines; rains; cheeses";3
+52;52;"Kiev";"Ukraine";50.45010000;30.52340000;"capital; chickens; monasteries; operas; cultures; pilgrimages; domes; historic";4
+53;53;"Milan";"Italy";45.46542200;9.18592400;"fashion; museums; arts; football; cathedrals; wealth; architectures; industries";3
+54;54;"Cancún";"Mexico";21.16190800;-86.85152800;"beaches; vacations; hurricanes; drugs; tourism; spring breaks; gold; lagoons; ocean; forests; coral reefs; clubs";5
+55;55;"Agra";"India";27.17667000;78.00807500;"world wonders; ancient city; mosques; love story; battles; emperors; gardens; marbles; tourists";3
+56;56;"Brussels";"Belgium";50.85034000;4.35171000;"capitals; sprouts; cathedrals; bombings; terrorism; cultures; galleries; grey; multilingual";3
+57;57;"Seoul";"South Korea";37.56653500;126.97796900;"capital; mountains; sports; crowds; athletes; technology; subways; coffees; cell phones";3
+58;58;"Edinburgh";"United Kingdom";55.95325200;-3.18826700;"castles; kilts; festivals; education;  universities; extinct volcanos; rugby";3
+59;59;"Kuala Lumpur";"Malaysia";3.13900300;101.68685500;"capital; tropical; textiles; skybridges; pollution; gold; skyscrapers; markets; spicy food; shopping; traffic";3
+60;60;"Los Angeles";"United States";34.05223400;-118.24368500;"films; traffic; celebrities; angels; busy; gang violences; palm trees; beaches; actors; wealth; telivisions; police";3
+61;61;"Miami";"United States";25.76168000;-80.19179000;"beaches; tropical; spring breaks; suns; humid; hot; sea; sand; bikinis; palm trees; nightlife";4
+62;62;"Toronto";"Canada";43.65322600;-79.38318400;"languages; hockey; skyscrapers; baseballs; mounties; syrups; educations; waterfronts";3
+63;63;"Vancouver";"Canada";45.63872800;-122.66148600;"coasts; fishing; skyscrapers; mountains; rains; ocean; galleries; diverse; multicultural";3
+64;64;"Mexico City";"Mexico";19.43260800;-99.13320800;"capital; hot; ancient; indigenous; historic; food; religions; cultures; high elevation; populous; temples; landlocked; businesses";3
+65;65;"Seattle";"United States";47.60620900;-122.33207100;"rains; coffees; mountains; forests; seafood; markets; stadiums; crabs";3
+66;66;"Munich";"Germany";48.13512500;11.58198100;"architectures; football; forests; sausages; opera house; trams; cathedrals; sculptures; beer festivals; palaces";3
+67;67;"Washington";"United States";38.90719200;-77.03687100;"capitals; governments; monuments; cherry trees; politicians; presidents";3
+68;68;"Montreal";"Canada";45.50168900;-73.56725600;"hockey; cold; mountains; languages; mixtures; mounties; melting pot; olympics";4
+69;69;"Atlanta";"United States";33.76791880;-84.56103560;"peaches; tobacco; rap music; mountains; factories; transportation hub; rainfalls; rolling hills; country music; televisions; baseballs; sweet teas";3
+70;70;"Philadelphia";"United States";39.95258400;-75.16522200;"history; bells; rivers; sandwiches; cream cheeses; eagles; towers; music; liberty; skyscrapers; pretzels; vendors";3
+71;71;"San Diego";"United States";32.71573800;-117.16108400;"zoos; beaches; biotechnology; wildfires; surfers; safari parks; beers; borders; theme parks; football; palm trees; militaries; democratic";3
+72;72;"Warsaw";"Poland";52.22967600;21.01222900;"capital; ghettos; churches; politics; skyscrapers; dumpling soups; jazz clubs; religions; tourists; synagogues; vodka; poverty";3
+73;73;"Dallas";"United States";32.77666400;-96.79698800;"rodeos; hot; oils; cowboys; dry; football; steaks; money; barbeques; boots; stetsons; economy";3
+74;74;"Oslo";"Norway";59.91386900;10.75224500;"capital; cold; reindeers; fjords; snow; skiing; languages; peace prizes; lakes";3
+75;75;"Johannesburg";"South Africa";-26.20410300;28.04730500;"capital; wealthy; mining; shanty town; apartheid; history; diamonds; struggles";3
+76;76;"Antalya";"Turkey";36.89689100;30.71332300;"blue waters; baths; mosques; mountains; walls; ports; resorts; sea";4
+77;77;"Sarajevo";"Bosnia and Herzegovina";43.89388520;18.24290390;"capital; wars; sports; bombs; stadiums; athletes; cold winters";3
+78;78;"Havana";"Cuba";23.05091960;-82.47280000;"capital; cigars; architectures; tropical; revolutions; sea; islands; history; communism; rum; beaches; music; old cars; dictatorship";3
+79;79;"Santo Domingo";"Dominican Republic";18.48052610;-70.01694010;"capital; fortresses; governments; baseballs; beaches; palatial houses; ports; poverty";3
+80;80;"Taipei";"Taiwan";25.03296900;121.56541800;"museums; skyscrapers; panoramas; mountains; folklores; temples; nightclubs; shopping";3
+81;81;"Orlando";"United States";28.53833500;-81.37923600;"palm trees; amusement parks; alligators; oranges; sinkholes; basketballs; suns; aquariums; spring breaks; skyscrapers; cruises; hurricanes";3
+82;82;"Addis Ababa";"Ethiopia";8.96348970;38.63805330;"capital; museums; gold; parks; racecourses; mausoleums; arts; martyrs; fossils";3
+83;83;"Bali";"Indonesia";-8.40951800;115.18891600;"islands; beaches; tourism; mountains; crowds; romances; coasts; fabrics; art movements; asins";3
+84;84;"São Paulo";"Brazil";-23.55052000;-46.63330900;"skyscrapers; samba; entertainment; slums; soybeans; cathedrals; promiscuity; plateaus; traffic; statues; football; monsoons";3
+85;85;"Jakarta";"Indonesia";-6.20876300;106.84559900;"third world; crowds; colors; coasts; colonial; noises; indigenous; religions";3
+86;86;"Auckland";"New Zealand";-36.84846000;174.76333200;"warm weather; islands; volcanos; mountains;  kiwis; transportation centers; wines; green";4
+87;87;"Honolulu";"United States";21.30694400;-157.85833300;"capital; beaches; volcanos; warm; surfing; flowers; islands; ports; sun; grass skirts; tourists; tourism; rainbows";3
+88;88;"New Orleans";"United States";29.95106600;-90.07153200;"beaches; volcanos; warm; surfing; flowers; islands; ports; sun; grass skirts; tourists; tourism";3
+89;89;"Melbourne";"Australia";-37.85895460;144.51916090;"kangaroos; urban; koalas; tourism; governments; museums; tennis";3
+90;90;"Luxor";"Egypt";25.68724300;32.63963600;"pyramids; ancient; deserts; sand; temples; mummies; tombs; archaeology; rivers; landmarks";3
+91;91;"Houston";"United States";29.76042700;-95.36980300;"oils; barbecues; ranchers; baseballs; rodeos; spaces; cowboys; traffic; hockey; tornadoes";4
+92;92;"Manila";"Philippines";14.59951200;120.98421900;"capital; densely populated; tropical; seaports; tourism; commerce centers; colonial; shopping; traffic; sports; night life; eclectic; pollution";3
+93;93;"Zürich";"Switzerland";47.36865000;8.53918300;"capital; mountains; snow; cold; lakes; skiing; watches; banking centers; chocolates";6
+94;94;"Lima";"Peru";-12.04637400;-77.04279300;"capital; mountains; monastry; ruins; beaches; altitudes; fountains; spicy food";3
+95;95;"Bogotá";"Colombia";4.71098900;-74.07209200;"capital; parks; kidnapping; cocaine; cartels; savannas; crimes; dangers";3
+96;96;"Gran Canaria";"Spain";27.92022000;-15.54743700;"islands; bird parks; caves; tourism; white sand; nature reserves; parks; ocean; archipelago";4
+97;97;"Frankfurt";"Germany";50.11092200;8.68212700;"sausages; beers; operas; cathedrals; architectures; banks; pretzels; skyscrapers";3
+98;98;"Seville";"Spain";37.38909200;-5.98445900;"cathedrals; palaces; architectures; dancing; harbors; history; music; flamenco";3
+99;99;"Nice";"France";43.71017300;7.26195300;"beaches; snails; champagnes; observatory; museums; promenades; films; ratatouille";3
+100;100;"Hamburg";"Germany";53.55108500;9.99368200;"banking; beers; canals; ports; riverss; historical; warehouse district; festivals; burgers; media; industries; sausages";3
+101;101;"Naples";"Italy";40.85358600;14.17296680;"sea; ports; large; historic; wars; history; culture; organized crimes";3
+102;102;"Granada";"Spain";37.17733600;-3.59855700;"palaces; mountains; historic; gardens; pomegranates; skiing";3
+103;103;"Reykjavík";"Iceland";64.12652100;-21.81743900;"capital; volcanos; coastal; cold; lavas; fishing; vikings; lagoons; glaciers";3
+104;104;"Düsseldorf";"Germany";51.22774100;6.77345600;"rivers; beers; capital; carnivals; military bases; towers";4
+105;105;"Manchester";"United Kingdom";53.48075900;-2.24263100;"soccer; stadiums; cotton; old; politics; ship canals; media; pints; beers; trams; industries; comedy";3
+106;106;"València";"Spain";39.46990700;-0.37628800;"festivals; paellas; costumes; food; peninsula; beaches; tomatoes; seaside";3
+107;107;"Pisa";"Italy";43.72283900;10.40168900;"towers; churches; pizzas; pastas; historic; rivers; tourists; palaces; maritime; canals";3
+108;108;"Liverpool";"United Kingdom";53.40837100;-2.99157300;"football; music; canals; pubs; docks; trams; rivers; factories; working classes; cathedrals; racecourses; ferries";3
+109;109;"Helsinki";"Finland";60.17332400;24.94102500;"cold; capital; reindeers; gulf; docks; vikings; coastal";3
+110;110;"Porto";"Portugal";41.15794400;-8.62910500;"football; caves; bridges; sardines; bookshops; concerts; estuary; cathedrals";2
+111;111;"Verona";"Italy";45.43838400;10.99162200;"history; loves; operas; plays; cultures; tourism; architectures";3
+112;112;"Palermo";"Italy";38.11568800;13.36126700;"mountains; islands; operas; movies; mafia; markets; beaches; crimes; city walls; palaces; corruption; wines";3
+113;113;"Lyon";"France";45.76404300;4.83565900;"architectures; arts; gastronomy; heritages; languages; rivers; towers; temperate; medieval";3
+114;114;"Stuttgart";"Germany";48.77584600;9.18293200;"palaces; automobiles; parks; lakes; towers; high-tech industry; woodlands; cemeteries; festivals; cyclists";2
+115;115;"Geneva";"Switzerland";46.19839200;6.14229600;"mountains; snow; skiing; watches; banks; valleys; neutrality; chocolates";2
+116;116;"Kathmandu";"Nepal";27.71724500;85.32396000;"highlands; cats; mountains; traditional costumes; adventures; climbers; palaces; rocky";2
+117;117;"Ulaanbaatar";"Mongolia";47.88639900;106.90574400;"capital; palaces; monastry; hordes; municipality; nomads; stadiums; deserts; grasslands";3
+118;118;"Hanover";"Germany";52.37589200;9.73201000;"arts; trades; music; folk tales; cultures; history; traditions";5
+119;119;"Salt Lake City";"United States";40.76077900;-111.89104700;"religions; deserts; salts; lakes; mountains; festivals; pilgrimage; bigamy";2
+120;120;"Sacramento";"United States";38.58157200;-121.49440000;"old towns; suns; basketballs; gold; public televisions; sand; museums; beaches; suburb; rivers";2
+121;121;"Quebec";"Canada";52.46182460;-86.25681910;"hockey; francophone; rivers; maple syrups; owls; walls; languages; ramparts; wildlife; bistros; lakes; cold; snow";2
+122;122;"Detroit";"United States";42.33142700;-83.04575400;"cars; music; hockey; motowns; blues; money; crimes; lakes";5
+123;123;"La Paz";"Bolivia";-16.48968900;-68.11929400;"mountains; festivals; music; colonial; breweries; hats; parks; cathedrals";2
+124;124;"Caracas";"Venezuela";10.46964000;-66.80371900;"capital; old cars; pan pipes; blankets; chapels; colonial; coffees; crimes; valleys; architectures; indigenous";2
+125;125;"Montevideo";"Uruguay";-34.90111300;-56.16453100;"capital; harbours; old towns; footballs; writers; subtropical climate; trades; beaches; forts";4
+126;126;"Asunción";"Paraguay";-25.26374000;-57.57592600;"capital; beef; indigenous peoples; barbeques; football; ports; cathedrals; national parks; alpacas";3
+127;127;"Casablanca";"Morocco";33.57214740;-7.72747850;"capital; movies; palm trees; ports; financial centers; deserts; romances; oasis; markets; textiles; car racing; bazars";3
+128;128;"Lagos";"Nigeria";6.52437900;3.37920600;"soccer; festivals; films; islands; music; ports; traffic; yam";2
+129;129;"Mombasa";"Kenya";-4.04347700;39.66820600;"gold; coasts; elephants; ivory; plains; islands; spices";3
+130;130;"Memphis";"United States";35.14953400;-90.04898000;"music; country music; blues; bars; barbecues; fried chickens; recording studios; mud islands; dancing; assassinations; rivers";2
+131;131;"Tampa";"United States";27.95057500;-82.45717800;"bays; cigars; pirate ships; storms; oranges; baseballs; wrestling; retirees; fishing; cruise ships; theme parks; rollercoasters";3
+132;132;"Denver";"United States";39.73923600;-104.99025100;"mountains; elks; plains; skiing; football; elevation; steaks; thunderstorms; cycling; marijuana; performing arts; brewing";2
+133;133;"Phoenix";"United States";33.44837700;-112.07403700;"deserts; heat; cactus; spas; retirements; plains; sports teams; deserts; indigenous peoples; football; mexican food; high crimes";2
+134;134;"Rotterdam";"Netherlands";51.92442000;4.47773300;"canal; tulips; land reclamation; clogs; wooden shoes; dykes; cheeses; windmills";3
+135;135;"Innsbruck";"Austria";47.26921200;11.40410200;"skis; mountains; snow; altitudes; olympics; avalanches; architectures; expensive";3
+136;136;"Lausanne";"Switzerland";46.51996200;6.63359700;"rivers; sports; olympics; bridges; wines; metros; libraries; plateaus";4
+137;137;"San José";"Costa Rica";9.93560700;-84.18338590;"rains; vacations; bananas; music; jungles; monkeys; rainforests; spices";2
+138;138;"Salzburg";"Austria";47.80949000;13.05501000;"castles; mountains; music; festivals; trees; cathedrals; architectures; baroque";4
+139;139;"Eindhoven";"Netherlands";51.44164200;5.46972200;"windmills; football; caberets; arts; lightbulbs; marijuana; tulips; dykes";2
+140;140;"Alexandria";"Egypt";31.22403490;29.81479970;"libraries; history; hot; tombs; pyramids; harbors; ancient heritages; cruises; deserts; architectures";2
+141;141;"Ankara";"Turkey";39.93336300;32.85974200;"capital; honey; mohairs; pears; goats; temples; mausoleums; grapes; bazaars; wools; sculpture; architectures; cats";2
+142;142;"Antwerp";"Belgium";51.21944800;4.40246400;"tapestry; arts; ports; riversides; architectures; medieval; ancient";2
+143;143;"Baghdad";"Iraq";33.31280600;44.36148800;"capital; wars; historic; deserts; destructions; terrorists; soldiers; mosques; poverty; sand; ancient";2
+144;144;"Baltimore";"United States";39.29038500;-76.61218900;"harbors; aquariums; bays; crabs; warships; boats; ravens; beers";2
+145;145;"Bangalore";"India";12.97159900;77.59456300;"castles; technology; slums; films; coconut trees; traffic; air pollution; monsoons";3
+146;146;"Bern";"Switzerland";46.94792200;7.44460800;"mountains; snow; trains; cheeses; languages; bears; cathedrals; arts; economy; skis; banks; chocolates; helmets; precision";4
+147;147;"Birmingham";"United Kingdom";52.47735490;-2.00371450;"parks; furnaces; universities; crimes; beers";3
+148;148;"Bordeaux";"France";44.83778900;-0.57918000;"wines; countryside; vineyards; rivers; ports; architectures; fountains; grapes";2
+149;149;"Bonn";"Germany";50.73743000;7.09820700;"festivals; reunifications; cathederals; wars; industry; sculptures; theaters; beer gardens";4
+150;150;"Bratislava";"Slovakia";48.14589200;17.10713700;"capital; rivers; castles; tourism; large";2
+151;151;"Brisbane";"Australia";-27.47101100;153.02344900;"harbors; architectures; kangaroos; sunny; humid; hot; hilly; urban; beaches; eucalyptus; koalas; snakes";2
+152;152;"Buffalo";"United States";42.88644700;-78.87836900;"football; wings; lakes; hockey; rivers; festivals; hot sauces; falls";2
+153;153;"Kolkata (formerly Calcutta)";"India";22.57264600;88.36389500;"festivals; cows; hindus; wetlands; football; poor people; curry; monsoons";3
+154;154;"Canberra";"Australia";-35.28200000;149.12868400;"capital; wombats; forests; mountains; festivals; koalas; kangaroos; opportunity; vineyards; nature reserves; colonial";3
+155;155;"Port-au-Prince";"Haiti";18.57918690;-72.35446950;"earthquakes; pirates; islands; coffees; gingerbreads; cruises; poverty; sugars";2
+156;156;"Luxembourg";"Luxembourg";49.60769510;6.06582950;"capital; history; cemetaries; forests; languages; cliffs; cycling; skis; wealth; fortress";2
+157;157;"Cleveland";"United States";41.49932000;-81.69436100;"baseball; music; governments; sports; productions; rivers; zoos; rock and roll";2
+158;158;"Pyongyang";"North Korea";39.02932110;125.60202340;"capital; rivers; dictatorships; monuments; temples; orders; historic; armed; insular";2
+159;159;"Hanoi";"Vietnam";21.02277320;105.80194390;"capital; wars; markets; puppetry; pagodas; trades; communist rules; rivers; architectures; resilient; subtropical";2
+160;160;"Damascus";"Syria";33.49349600;36.28477500;"capital; mosques; foothills; refugees; wars; flattened buildings; religions";4
+161;161;"Minneapolis";"United States";44.97067560;-93.33151830;"cold; lakes; malls; cheeses; cars; music; baseball; twins";2
+162;162;"Nicosia";"Cyprus";35.19237270;33.32741500;"historic; rivers; islands; walls; olives";2
+163;163;"Dortmund";"Germany";51.51358700;7.46529800;"administrations; tourism; mining; churches; architectures; large; historical";2
+164;164;"Dresden";"Germany";51.05040900;13.73726200;"wars; bombings; scandals; baroque; air-raids; industries; rivers; porceleins";2
+165;165;"Pretoria";"South Africa";-25.75776320;27.91774780;"capital; slums; surfing; fishing; sharks; black; apartheid; shanty towns; safaris; poverty";2
+166;166;"Nottingham";"United Kingdom";52.95478300;-1.15810900;"legendary; forests; movies; fairy tales; literatures; homes; folklores; shopping";3
+167;167;"Aberdeen";"United Kingdom";57.14971700;-2.09427800;"granites; castles; universities; fishing; harbours; bogs; whiskys; lighthouses; distilleries; hills";2
+168;168;"Gothenburg";"Sweden";57.70887000;11.97456000;"canals; parks; boulevards; architectures; coastal";2
+169;169;"Zagreb";"Croatia";45.84034960;15.82424520;"capital; gothic; governments; museums; cathederals; wars; rivers; landlocked";3
+170;170;"Giza";"Egypt";30.01305600;31.20885300;"pyramids; deserts; sand; pharaos; wind storms; history; ancient";2
+171;171;"Glasgow";"United Kingdom";55.86423700;-4.25180600;"football; business hubs; cathedrals; shipping; enlightenment; kilts; chemicals; tenements; tartan; rangers; haggis; celtic";2
+172;172;"Guadalajara";"Mexico";20.65969900;-103.34960900;"mariachi music; stadiums; cultural events; colonial; cathedrals; technology centers; football teams; architectures";2
+173;173;"Guatemala City";"Guatemala";14.63491500;-90.50688200;"baseball; volcanos; mudslides; earthquakes; monsoons; jungles; civil wars; telecoms";2
+174;174;"Nazareth";"Israel";32.71430400;35.21977640;"religions; deserts; christianity; mosques; synagogues; pilgrimages; prayers; holy";4
+175;175;"Phnom Penh";"Cambodia";11.57966690;104.75009660;"mountains; temples; economy; wars; religions; shopping centers; massacres; wildlife; bustling";4
+176;176;"Hyderabad";"India";17.38504400;78.48667100;"capital; sailboats; pharmaceuticals; diamonds; technology; forts; monsoons; bazaars; pearls";6
+177;177;"Abu Dhabi";"United Arab Emirates";24.38691590;54.27970170;"capital; oils; deserts; wealth; rich; skyscrapers; mosques; island; horse racing; mansions; shopping; trades; commercial centers";2
+178;178;"Islamabad";"Pakistan";33.72938800;73.09314600;"capital; mosques; populous; information technology; outdoor games; hot climate; earthquakes; islam; bombings; plateaus; forts; wars";3
+179;179;"Izmir";"Turkey";38.42373400;27.14282600;"markets; coasts; mosques; trades; olives; tourism; dates; shopping; belly dancers";2
+180;180;"Phuket";"Thailand";7.96711750;98.07903140;"cobras; temples; islands; tourists; suns; elephants; tropical";2
+181;181;"Katowice";"Poland";50.26489200;19.02378200;"coal mining; dialects; hotels; industry; railways; bridges; rivers; transport hubs";2
+182;182;"Kraków";"Poland";50.06465000;19.94498000;"polluted air; churches; wars; rivers; potatoes; castles; tourism; prisoners; old towns; dragons; medieval; walls";4
+183;183;"Kabul";"Afghanistan";34.55395250;68.91752580;"capital; wars; deserts; dangerous; valleys; sand; nuts; crossroads; opium";2
+184;184;"Marseille";"France";43.29648200;5.36978000;"ports; wines; harbours; soccer; dining; fishing; trades; royals";2
+185;185;"Minsk";"Belarus";53.90454000;27.56152400;"galleries; palaces; churches; steppes; museums; restaurants; sushi; nightclubs";2
+186;186;"Monaco City";"Monaco";43.73841800;7.42461600;"capital; gambling; road races; princes; harbors; luxury cars; beaches; royal families; wealth";2
+187;187;"Acapulco";"Mexico";16.83577100;-100.00270420;"beaches; nightlife; ports; drugs; gold; cruise ships; corns; millionaires";2
+188;188;"Nairobi";"Kenya";-1.29206600;36.82194600;"safaris; subtropical climate; jungles; games; slums; poverty; national parks; earthquakes; business hubs; animals; populus; skyscrapers; building materials";5
+189;189;"Odessa";"Ukraine";46.48252600;30.72331000;"theatres; ports; gate-ways; wars; architectures; coastal";3
+190;190;"Osaka";"Japan";34.69373800;135.50216500;"tofus; mountains; ramens; cultures; udon; baseballs; vibrant; bustling";2
+191;191;"Cordoba";"Spain";37.95352820;-5.91748650;"mosques; bulls; leathers; architectures; cathedrals; moors";2
+192;192;"Ostrava";"Czech Republic";49.82092300;18.26252400;"mosques; bulls; leathers; architectures; peninsulas; bridges; cathedrals; moors";2
+193;193;"Ottawa";"Canada";45.42153000;-75.69719300;"capital; rivers; hockey; clean; governments; museums; trades; galleries; wealth";2
+194;194;"Padua";"Italy";45.40643500;11.87676100;"arts; wealth; saints; sculptures; churches; food; ancient";2
+195;195;"Panama City";"Panama";9.10117800;-79.40286400;"canals; gold; tropical; rainforests; rivers; arts; colonies; cathedrals";2
+196;196;"Perth";"Australia";-31.95351300;115.85704700;"kangaroos; rivers; coral reefs; beaches; islands; aborigines; sea; modern";2
+197;197;"Poznan";"Poland";52.40637400;16.92516800;"rivers; cathedrals; continental climate; castles; artificial lakes; industries; goats; merchant city; lakes; superbrands";2
+198;198;"Quito";"Ecuador";-0.18065300;-78.46783800;"cathedrals; palaces; plazas; shamans; volcanoes; markets; football; rainforests; equator";3
+199;199;"Samara";"Russia";53.24150400;50.22124600;"satellites; rivers; railways; mountains; vodka; power stations; space services";2
+200;200;"Adelaide";"Australia";-34.98354560;138.14009480;"rivers; large; ocean; beaches; sports; markets; crickets; surfing";2
+201;201;"Sofia";"Bulgaria";42.69770800;23.32186800;"capital; mountains; cathedrals; humid climate; gardens; monuments; pollution; dogs; cultural institutions; arts; green belts";2
+202;202;"Strasbourg";"France";48.57340500;7.75211100;"governments; administrations; foie gras; history; architectures";2
+203;203;"Tangier";"Morocco";35.75946500;-5.83395400;"outdoor cafes; strategic position; markets; mint teas; ports; beaches; brassworks; leather goods";6
+204;204;"Tashkent";"Uzbekistan";41.29949600;69.24007300;"capital; street-markets; cathedrals; domes; cultures; fountains; rivers; football";2
+205;205;"Tianjin";"China";39.08415800;117.20098300;"ports; coasts; canals; monsoons; monuments; squares; air pollution; earthquakes";5
+206;206;"Vladivostok";"Russia";43.17373900;132.00645100;"vodka; ports; railways; harbours; fishing; shipping; snow; bridges";3
+207;207;"Tel Aviv";"Israel";32.08530000;34.78176800;"capital; hot; sea; kosher; religions; promenades; kippas; beaches; architectures";2
+208;208;"Tripoli";"Libya";32.88720900;13.19133800;"capital; bombs; civil wars; pirates; barracks; football; palm trees; deserts; sea";2
+209;209;"Kingston";"Jamaica";18.04232700;-76.80289300;"capital; tropical; drugs; dancing; sunshine; islands; jungles; music; reggaes";2
+210;210;"Turin";"Italy";45.07031200;7.68685600;"shrouds; religious; museums; tourism; cuisine; sacred";3
+211;211;"Belfast";"United Kingdom";54.59728500;-5.93012000;"capital; religions; greens; ports; rivers; islands; industries; unions; dockyards; divided";3
+212;212;"Belgrade";"Serbia";44.78656800;20.44892200;"administrative status; information technology; sports; wars; cultures";2
+213;213;"Dubrovnik";"Croatia";42.65066100;18.09442400;"history; castles; seasides; cultures; tourism; travels; red; ancient";2
+214;214;"Valletta";"Malta";35.89890800;14.51455300;"capital; harbours; churches; seaports; arts; statues; tourism; bars; architectures";2
+215;215;"The Hague";"Netherlands";52.07049800;4.30070000;"courts; beaches; politics; trials; seasides; peace; sea; stoic";3
+216;216;"Grenoble";"France";45.18852900;5.72452400;"mountains; archaeology; ancient; trams; cable cars; alps; sophistication; natural history; walnuts; skis";2
+217;217;"Aarhus";"Denmark";56.16293900;10.20392100;"healthcare industry; harbours; afforestations; plateaus; tulips; lakes; municipal governments; tunnel valleys";2
+218;218;"Cambridge";"United Kingdom";52.20533700;0.12181700;"punt; college; football; museum; trains; cobbled streets; kings; research; brick; campus; festival; cottage";3
+219;219;"Oxford";"United Kingdom";51.75202100;-1.25772600;"universities; students; towns; rivers; scholars; churches; architectures; medieval; learning";2
+220;220;"Dundee";"United Kingdom";56.46201800;-2.97072100;"sea; anticline; bridge disaster; boats; football; accent; journalism; universities; jams";3
+221;221;"Ravenna";"Italy";44.41836000;12.20352900;"mausoleums; basilicas; mosaics; cupolas; craftsmen; monuments; domes; churches";2
+222;222;"Cologne";"Germany";50.93753100;6.96027900;"gothic; universities; rhones; bombings; cathedrals; floods; historic; medieval";2
+223;223;"Nuremberg";"Germany";49.45203000;11.07675000;"trials; zoos; beers; christmas markets; courts; cycling; sausages; art academy; war criminals; business; castles; gingerbreads";5
+224;224;"Cannes";"France";43.55284700;7.01736900;"movies; film festivals; champagnes; yachts; beaches; rainfalls; technology";3
+225;225;"Avignon";"France";43.94931700;4.80552800;"rivers; bridges; mountains; songs; ruins; cathedrals; architectures; medieval; bikes";2
+226;226;"Marbella";"Spain";36.51007100;-4.88244700;"beaches; coasts; prehistory; warm weather; mountains; nightlife; old towns; history";5

@@ -1,0 +1,94 @@
+Afghanistan.Afghan.Persian.Pashto.Arabic.
+Albania.Albanian.
+Algeria.Algerian.
+Angolia.Angolian.
+Antigua.Antiguan.
+Argentina.Argentine.Argentinian.
+Armenia.Armenian.
+Australia.Australian.
+Austria.Austrian.
+Bahamas.
+Bangladesh.Bangladeshi.
+Barbados.
+Belarus.Belarussian.
+Belgium.Belgian.Flemish.
+Bolivia.Bolivian.
+Bosnia.Bosnian.
+Botswana.
+Brazil.Brazilian.Portuguese.
+Bulgaria.Bulgarian.
+Burma.Myanmar.
+Cambodia.Cambodian.Cambodian.
+Cameroon.Cameroonian.
+Canada.Canadian.
+Chile.Chilean.
+China.Chinese.
+Colombia.Colombian.
+Congo.Congan.
+Costa Rica.Costa Rican.
+Croatia.Croatian.
+Cuba.Cuban.
+Cyprus.Cyprian.
+Czech.
+Denmark.Danish.Dane.
+Dominican Republic.Dominican.
+Ecuador.Ecuadorian.
+Egypt.Egyptian.
+El Salvador.Salvadorian.
+Estonia.Estonian.
+Ethiopia.Ethiopian.Amharic.
+Fiji.Fijian.
+Finland.Finnish.
+France.French.
+Germany.German.
+Ghana.Ghanaian.
+Greece.Greek.
+Guatemala.Guatemalan.
+Haiti.Haitian.Creole.
+Honduras.Honduran.
+India.Indian.Hindu.
+Indonesia.Indonesian.
+Iran.Iranian.Persian.
+Ireland.Irish.
+Israel.Israeli.Hebrew.
+Italy.Italian.
+Japan.Japanese.
+Jordan.Jordanian.
+Kenya.Kenyan.Swahili.
+Laos.Laotian.
+Latvia.Latvian.
+Lithuania.Lithuanian.
+Malaysia.Malaysian.Malay.
+Mexico.Mexican.
+Morocco.Moroccan.
+Netherlands.Dutch.
+New Zealand.New Zealander.Maori.
+Nicaragua.Nicaraguan.
+Norway.Norwegian.
+Palestine.Palestinian.
+Panama.Panamanian.
+Paraguay.Paraguayan.
+Peru.Peruvian.
+Philippines.Filipino.Tagalog.
+Poland.Polish.
+Portugal.Portuguese.
+Puerto Rico.Puerto Rican.
+Romania.Romanian.
+Russia.Russian.
+Saudi Arabia.Saudi.
+Scotland.Scottish.
+South Korea.Korean.
+Spain.Spanish.
+Sweden.Swedish.
+Switzerland.Swiss.Romansh.
+Taiwan.Taiwanese.
+Tajikistan.Tajik.
+Thailand.Thai.
+Turkey.Turkish.
+Ukraine.Ukrainian.
+United Kingdom.England.Britain.British.English.
+United States.America.American.
+Uruguay.Uruguayan.
+Venezuela.Venezuelan.
+Vietnam.Vietnamese.
+Wales.Welsh.

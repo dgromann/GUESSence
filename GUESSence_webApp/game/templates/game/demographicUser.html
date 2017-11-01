@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="container-fluid" style="padding-top: 20px">
+	<div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="panel panel-primary">
+			{% if done == False %}
+			<div class="panel-heading"><span class="glyphicon glyphicon-info-sign"></span> Would you be willing to share some more information with us?</div>
+			<div class="panel-body">
+				<p>This is a game for a research project. You would help us improve our results if you provide some demographic information.</p>
+				<form id="dem_user_form" method="post" action="{% url 'game:demuser' game.game_id%}" enctype="multipart/from-data">
+				{% csrf_token %}
+					{{ dem_user_form.as_p }}					
+					<input type="submit" class="btn btn-primary" id="submit" value="Submit" style="margin-bottom: 10px;"/><br/>
+				</form>
+				<a href="{% url 'game:newgame' game.game_id%}" class="btn btn-primary" type="submit" title="Hit this button to enter a new game"> Play Again</a>
+				<a class="btn btn-primary" href="/game/start/logout/{{game.game_id}}/" role="button">Logout</a>
+			{% endif %}
+			{% if done == True %}
+			<div class="panel-heading"><span class="glyphicon glyphicon-info-sign"></span> Thank you!</div>
+			<div class="panel-body">
+				<p>What would you like to do next?</p>
+				<a href="{% url 'game:newgame' game.game_id%}" class="btn btn-primary" type="submit" title="Hit this button to enter a new game"> Play Again</a>
+				<a class="btn btn-primary" href="/game/start/logout/{{game.game_id}}/" role="button">Logout</a>
+				<p style="margin-top: 15px"><a href="/game/instructions" type="text">Consult Instructions</a></p>
+			</div>
+			{% endif %}
+		</div>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+{% load static %}
+    <script type="text/javascript" src="{% static 'js/jquery.form.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script>
+{% endblock content %}

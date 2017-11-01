@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<!-- Main jumbotron for a primary marketing message or call to action -->
+
+<div class="container-fluid" style="padding-top: 20px">
+	<div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="panel panel-primary">
+				<div class="panel-heading"><span class="glyphicon glyphicon-question-sign"></span> Abusive Message</div>
+				<div class="panel-body">
+					{% if reported == user.id %}
+						<p>Your messages has been reported as abusive by another user. This is a warning and the last game will not be included in your statistics. If you are reported twice more, your account will be blocked automatically.</p>
+					{% else %}
+						<p>You have reported the message of the other user as abusive. Please do so with care because the user will be blocked if reported three times.</p> 
+						<p>This game will not be included in your statistics. Please hit "Play Again" to start a new game or "Logout" to leave the game.</p>
+					{% endif %} 
+					<a href="{% url 'game:unknownCity' game.game_id%}" class="btn btn-primary" type="submit" title="Hit this button to enter a new game">Play Again</a>
+					<a href="{%url 'game:feedback' game.game_id%}" class="btn btn-primary" type="submit" title="Hit this button if you wish to logout from GUESSence">Logout</a>
+					<p style="margin-top: 15px"><a href="/game/instructions" type="text">Consult Instructions</a></p>
+				</div>
+			</div>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+{% load static %}
+    <script type="text/javascript" src="{% static 'js/jquery.form.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script>
+{% endblock content %}

@@ -1,0 +1,164 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="btn-group btn-group-justified">
+		{% csrf_token %}
+			<a href="{% url 'game:newgame' game.game_id %}" class="btn btn-primary btn-lg" title="Hit this button to enter a new game" id="newgame">New Game</a>
+			<a href="{%url 'game:feedback' game.game_id%}" class="btn btn-primary btn-lg" title="Hit this button if you wish to logout from GUESSence" id="logout">Logout</a>
+			<!--<a href="/game/instructions" class="btn bootpopup" target="help" title="Hit this button if you wish to go back to the instructions">Help</a>-->
+			<!--<a href="/game/instructions" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#help">Help</a>-->
+			<a data-target="#myModal2" type="button" class="btn btn-primary btn-lg" data-toggle="modal">Help</a>
+</div>
+
+	<div id="myModal2" class="modal fade col-xs-12 col-md-12 col-sm-10 col-lg-10">
+		<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+		    	<button type="button" class="close" data-dismiss="modal">&times;</button>
+		    	<h4>Instructions</h4>
+		  	</div>
+		  	<div class="modal-body">
+				{% include "game/help.html" %}
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+
+	<div class="container col-xs-12 col-lg-12 col-sm-12 col-md-12">
+		<div class="row">
+		<div class="col-xs-6 col-lg-6 col-sm-6 col-md-6">
+			<h4 id="playersAvailable"><italics>Wait for 2nd player!</italics></h4>
+		</div>
+		<div class="col-xs-6 col-lg-6 col-sm-6 col-md-6">
+			<a class="btn" data-toggle="modal" type="button" data-target="#myModal" >What was my role?</a>
+		</div>
+		</div>
+	</div>
+
+	{% if game.guesser_id == user.id %}
+	<div id="myModal" class="modal fade col-xs-10 col-md-10 col-sm-12 col-lg-12" role="dialog">
+  	<div class="modal-dialog">
+		<div class="modal-content" id="myModal">
+		  	<div class="modal-header">
+		    	<button type="button" class="close" data-dismiss="modal">&times;</button>
+		    	<h4>You are a <strong>guesser</strong> in this game.</h4>
+		  	</div>
+		  	<div class="modal-body">
+		    	<p>Please ONLY type <strong>city names</strong> or <strong>"no clue"</strong>. The describer starts the game</p>
+		 	</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+	</div>
+	{%endif%}
+
+	{% if game.describer_id == user.id %}
+	<div id="myModal" class="modal fade col-xs-10 col-md-10 col-sm-12 col-lg-12" role="dialog">
+  	<div class="modal-dialog">
+		<div class="modal-content" id="myModal">
+		  	<div class="modal-header">
+		    	<button type="button" class="close" data-dismiss="modal">&times;</button>
+		    	<h4>You are a <strong>describer</strong> in this game</h4>
+		  	</div>
+		  	<div class="modal-body">
+		    	<p>Please ONLY use <strong>common nouns</strong> or adjectives/verbs + common nouns. You start the game.</p>
+		 	</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+	</div>
+	{%endif%}
+
+
+	<div class="container">
+		<div class="row col-xs-12 col-md-12 col-sm-12 col-lg-12">
+			<div class="panel panel-primary">
+				<div class="panel-heading"><span class="glyphicon glyphicon-comment"></span> Message Board</div>
+				<div class="panel-body">
+					{% if response %}
+						<div class="reply" id="response"></div>
+					{% else %}
+						<div class="reply" id="response">No message yet!</div> 		
+					{%  endif %}
+					<div class="alert alert-info collapse" role="alert" id="alertInfo">Checking input... please wait!</div>
+
+				   	<form id="game-form" method="POST" action="{% url 'game:playing' game.game_id %}" >
+				    {% csrf_token %}
+				    	<div class="input-group">
+				    		<span class="input-group-addon"><kbd><i class="glyphicon glyphicon-hourglass"></i><span id="countdown"> 0</span></kbd></span>
+				    		<input type="hidden" id="game_id" value="{{game.game_id}}">
+				    		<input type="text" autocomplete="off" autocorrect="off" autocapitalize="off"class="form-control" id="chatInput" placeholder="Your input goes here">
+				    		<div class="input-group-btn">
+				    			<button class="btn btn-primary" type="submit"><i class="glyphicon glyphicon-send"></i></button>
+				    		</div>
+				    		<!--<input class="btn btn-primary" type="submit" value="Send" id="btnSend"/>-->	
+				    	</div>
+				    </form>
+				    <div class="btn-group btn-block" style="margin-top: 10px;">
+				    	{%if game.describer_id == user.id %}
+						<a href="{% url 'game:success' game.game_id%}" class="btn btn-primary btn-lg" title="Hit this button if the city was guessed correctly" id="correct" style="margin-right: 10px; margin-bottom: 10px;">Guess is correct</a>
+						{% endif %}
+						<button class="btn btn-primary btn-lg" id="reported" value="{{game.game_id}}">Report abusive message</button>
+					</div>
+				</div>
+	    	</div>
+	    </div>
+
+
+		{% if game.describer_id == user.id %}
+		<div class="row col-xs-12 col-md-12 col-sm-12 col-lg-12">
+			<div class="panel panel-primary">
+			<div class="panel-heading"> <span class="glyphicon glyphicon-map-marker"></span>{{ city.city_name }}, {{city.country}}</div>
+				<div class="panel-body">
+					<p>Words not allowed to describe this city:</p>
+						{% for word in city.tabooWords_as_list %}
+						<kbd>{{ word }}</kbd>
+						{% endfor %}		
+					<p></p>
+					<p>If you don't know this city please click this button BEFORE you submit the first hint. It will disappear after the game started.</p>
+					<a href="{% url 'game:unknownCity' game.game_id%}" class="btn btn-primary btn-lg" title="Hit this button if you do not know this city" id="unknownCity">Unknown City</a>
+				</div>
+			</div>
+		</div>
+		{% endif %}
+
+	    <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="panel panel-primary">
+				<div class="panel-heading"><span class="glyphicon glyphicon-education"></span> Score Board</div>
+				<div class="panel-body">
+					<p><div id="playersOnline"></div></p>
+					<p>Your score is <span id="myScore"></span>.</p>
+					<p><strong>5 Best Players Ever  <span class="glyphicon glyphicon-sunglasses"></span> :</strong></p>
+					<p><div id="bestFive"></div></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+{% load static %}
+	<link type="text/css" rel="stylesheet" href="{% static "css/demo.css" %}">
+    <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.form.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/bootbox.min.js' %}"></script>
+
+<script type="text/javascript">
+    $(window).load(function( ){
+        $('#myModal').modal('show');
+        event.preventDefault();
+    });
+</script>
+
+{% endblock content %}
+
+

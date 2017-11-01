@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container-fluid" style="padding-top: 20px">
+	<div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="panel panel-primary">
+				<div class="panel-heading"><span class="glyphicon glyphicon-remove"></span> Disabled</div>
+				<div class="panel-body">
+					<p>Your account has been blocked because your messages were reported as abusive three times.</p>
+					<p>Please get in touch with tabooGameEssence@gmail.com for further steps to reactivate your account. We are sorry for any trouble caused by this quality assurance step.</p>
+
+				</div>
+			</div>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+{% load static %}
+    <script type="text/javascript" src="{% static 'js/jquery.form.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script>
+{% endblock content %}

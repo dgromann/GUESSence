@@ -1,0 +1,34 @@
+	<!-- Major design template for django -->
+{% extends 'base.html' %}
+
+{% block content %}
+<!-- Main jumbotron for a primary marketing message or call to action -->
+
+<nav class="navbar">
+    <div class="navbar-text navbar-left col-xs-8">Welcome to GUESSence!</div>
+  	<div class="navbar-brand">
+	{% load static %}
+    	<img alt="Brand" src="{% static "/images/logo.png" %}" class="img navbar-right col-xs-6 col-lg-6 col-sm-6 col-md-6">
+    </div>
+</nav>
+
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<p>Please register or login so that we can keep track of your score in the game.</p>
+		</div>
+		<div id="firebaseui-auth-container"></div>
+	</div>
+</div>
+
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+<script src="https://cdn.firebase.com/libs/firebaseui/2.0.0/firebaseui.js"></script>
+<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.0.0/firebaseui.css" />
+{% load static %}
+	<script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script>
+	<!--<script type="text/javascript" src="{% static 'js/js.cookie.js' %}"></script>-->
+	<script type="text/javascript" src="{% static 'js/register.js' %}"></script>
+{% endblock content %}
