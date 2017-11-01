@@ -1,0 +1,21 @@
+INSTALLATION INSTRUCTIONS
+
+This is a Django web application and Android mobile application that displays the main web app in a webview, so it cannot function on its own without the web application running on a server. The parameter (mainly "settings.py") need to be changed to your server settings. 
+
+The NLP checker relies on the distributionsWIKI.obj that is too large to upload, so we included the Train_NLP_Corpus.py to generate it. The main system functionality can be found in the views.py.
+
+DEPENDENCIES
+Django 1.10.3
+NGINX
+Android Studio for mobile app
+
+Python 3: 
+NLTK
+Stanford NER 3.4
+	Classifiers:
+	- english.all.3class.distsim.prop
+	- english.muc.7class.distsim.prop
+WordNet corpus
+StanfordNERTagger
+PerceptronTagger
+nocaptcha_recaptcha 
