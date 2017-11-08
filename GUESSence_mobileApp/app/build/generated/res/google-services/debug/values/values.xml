@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">your id.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://your-id.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">sender id</string>
-    <string name="google_api_key" translatable="false">your key</string>
-    <string name="google_app_id" translatable="false">1:sender id:android:id</string>
-    <string name="google_crash_reporting_api_key" translatable="false">your key</string>
-    <string name="google_storage_bucket" translatable="false">your-id.appspot.com</string>
-    <string name="project_id" translatable="false">your-id</string>
+    <string name="default_web_client_id" translatable="false">96624224364-6v7kkd51km6eq3gu8vf0pqrjd49rjij7.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://taboo-7351f.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">96624224364</string>
+    <string name="google_api_key" translatable="false">AIzaSyAy4cmYgkn7_iE7trm1dDjDSJgjOF9j-LM</string>
+    <string name="google_app_id" translatable="false">1:96624224364:android:1e495cf6c9f5da3e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAy4cmYgkn7_iE7trm1dDjDSJgjOF9j-LM</string>
+    <string name="google_storage_bucket" translatable="false">taboo-7351f.appspot.com</string>
+    <string name="project_id" translatable="false">taboo-7351f</string>
 </resources>
